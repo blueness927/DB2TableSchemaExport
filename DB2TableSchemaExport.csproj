@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Net.IBM.Data.Db2" Version="8.0.0.200" />
+    <PackageReference Include="NPOI" Version="2.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Template\" />
+    <Folder Include="Export\" />
+  </ItemGroup>
+
+</Project>
